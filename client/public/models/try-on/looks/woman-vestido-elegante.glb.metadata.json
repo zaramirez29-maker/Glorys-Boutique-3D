@@ -1,0 +1,15 @@
+{
+  "asset_kind": "static_avatar_garment_composite",
+  "avatar_source": "/models/avatars/cc0-grab3d/woman-rigged.glb",
+  "garment_source": "/models/vestido-elegante-demo.glb",
+  "source_garment_reused": true,
+  "avatar_profile": "woman-adult",
+  "status": "static_pose_preview",
+  "skinned_garment": false,
+  "replaces_all_original_clothing": false,
+  "limitations": [
+    "The avatar's original outfit is integrated into its single skinned mesh.",
+    "The dress is composed in a fixed pose and does not deform with the avatar skeleton.",
+    "Parts of the original jacket remain visible outside the dress coverage."
+  ]
+}

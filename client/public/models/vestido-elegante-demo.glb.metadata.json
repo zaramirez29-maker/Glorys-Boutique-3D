@@ -1,0 +1,25 @@
+{
+  "asset_kind": "standalone_product_garment",
+  "product_model": "vestido-elegante",
+  "category": "vestido",
+  "generator": "Blender 4.5 LTS; authored locally by tools/create_elegant_dress.py",
+  "source_license": "Original project-created geometry; no third-party mesh or texture used",
+  "format": "glTF 2.0 binary (GLB)",
+  "dimensions_meters": {
+    "width": 0.8851,
+    "depth": 0.4725,
+    "height": 1.1624
+  },
+  "mesh_parts": [
+    "fitted sleeveless bodice",
+    "flowing A-line skirt",
+    "continuous waist band",
+    "sweetheart neckline piping",
+    "waist and hem piping",
+    "bodice shaping seams"
+  ],
+  "material": "emerald satin PBR with warm gold trim",
+  "avatar_rig": null,
+  "virtual_try_on_ready": false,
+  "note": "Recognizable standalone 3D dress for product/AR viewing. It is not skinned or fitted to an avatar and does not implement size variants or cloth simulation."
+}

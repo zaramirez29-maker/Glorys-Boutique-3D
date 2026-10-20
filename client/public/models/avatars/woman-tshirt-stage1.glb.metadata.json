@@ -1,0 +1,16 @@
+{
+  "avatar": "adult_female",
+  "source": "Grab3D Casual Woman rigged GLB",
+  "source_license": "CC0-1.0",
+  "source_url": "https://grab3d.com/models/characters/woman/",
+  "source_ai_disclosure": "AI-assisted; see adjacent LICENSE.txt and manifest.json",
+  "rigged_mesh": "char1",
+  "shirt_material": "Glorys_Stage1_Tshirt",
+  "shirt_faces_grouped": 7611,
+  "shirt_fit": "The shirt surface is part of the source avatar mesh and shares its skin weights; no separate garment pattern or size fit is implied.",
+  "animations": [
+    "run",
+    "walk"
+  ],
+  "cloth_simulation": false
+}

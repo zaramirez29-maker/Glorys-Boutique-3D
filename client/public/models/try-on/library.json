@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "status": "incomplete",
+  "standaloneProductModels": {
+    "vestido": {
+      "file": "/models/vestido-elegante-demo.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "camiseta-ra": {
+      "file": "/models/ra-defaults/camiseta-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "camisa-ra": {
+      "file": "/models/ra-defaults/camisa-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "pantalon-ra": {
+      "file": "/models/ra-defaults/pantalon-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "jeans-ra": {
+      "file": "/models/ra-defaults/jeans-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "falda-ra": {
+      "file": "/models/ra-defaults/falda-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    },
+    "chaqueta-ra": {
+      "file": "/models/ra-defaults/chaqueta-ra.glb",
+      "status": "ready_for_product_ar_display",
+      "rigged": false,
+      "tryOnReady": false
+    }
+  },
+  "fittingComposites": {
+    "woman-adult-dress": {
+      "file": "/models/try-on/looks/woman-vestido-elegante.glb",
+      "avatarSource": "/models/avatars/cc0-grab3d/woman-rigged.glb",
+      "garmentSource": "/models/vestido-elegante-demo.glb",
+      "status": "static_pose_composite",
+      "skinnedToAvatar": false,
+      "note": "Uses the RA dress mesh in a fixed-pose composition. The source avatar outfit remains underneath parts not covered by the dress."
+    }
+  },
+  "avatar": {
+    "woman-adult": {
+      "file": "/models/avatars/cc0-grab3d/woman-rigged.glb",
+      "license": "CC0-1.0",
+      "readyForGarmentFitting": false,
+      "reason": "The source avatar is already clothed in its original outfit; it is not a neutral body base for garment fitting."
+    },
+    "man-adult": { "file": "/models/avatars/man-adult.glb", "status": "missing" },
+    "boy": { "file": "/models/avatars/boy.glb", "status": "missing" },
+    "girl": { "file": "/models/avatars/girl.glb", "status": "missing" }
+  },
+  "garments": {
+    "camiseta": { "file": "/models/try-on/garments/camiseta.glb", "compatibleAvatars": [], "status": "missing" },
+    "camisa": { "file": "/models/try-on/garments/camisa.glb", "compatibleAvatars": [], "status": "missing" },
+    "blusa": { "file": "/models/try-on/garments/blusa.glb", "compatibleAvatars": [], "status": "missing" },
+    "pantalon": { "file": "/models/try-on/garments/pantalon.glb", "compatibleAvatars": [], "status": "missing" },
+    "jeans": { "file": "/models/try-on/garments/jeans.glb", "compatibleAvatars": [], "status": "missing" },
+    "vestido": { "file": "/models/try-on/garments/vestido.glb", "compatibleAvatars": [], "status": "missing" },
+    "falda": { "file": "/models/try-on/garments/falda.glb", "compatibleAvatars": [], "status": "missing" },
+    "chaqueta": { "file": "/models/try-on/garments/chaqueta.glb", "compatibleAvatars": [], "status": "missing" },
+    "camisola": { "file": "/models/try-on/garments/camisola.glb", "compatibleAvatars": [], "status": "missing" },
+    "zapatos": { "file": "/models/try-on/garments/zapatos.glb", "compatibleAvatars": [], "status": "missing" }
+  }
+}
